@@ -66,6 +66,9 @@ function checkTime() {
         if(level == 2) {
             displayText = "Just kidding! I'm surprised you lasted " + delta + "seconds though." +
                 "You're pretty awesome.<br>Go ahead, press the green button. You earned it!"
+            document.getElementById("button").style.backgroundColor = "#22FE05";
+            document.getElementById("button").style.color = "#000000";
+            isGreen = true;
         }
     }
 
