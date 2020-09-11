@@ -75,6 +75,8 @@ function checkTime() {
 function reset() {
     document.getElementById("button").style.backgroundColor = "#FE5605";
     document.getElementById("button").style.color = "#FFFFFF";
+    document.getElementById("displayTextHeader").innerHTML = "Good Luck! And remember, I'll be watching";
+    isGreen = false;
     updateText();
 }
 
