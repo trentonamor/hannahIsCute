@@ -62,7 +62,7 @@ function checkTime() {
                 displayText = "So close! It is a shame this isn't a game of horseshoes. You would win for sure!";
         }
 
-        displayText += "You did it in " + delta + " seconds";
+        displayText += "<br>You did it in " + delta + " seconds";
         if(level == 2) {
             displayText = "Just kidding! I'm surprised you lasted " + delta + "seconds though." +
                 "You're pretty awesome.<br>Go ahead, press the green button. You earned it!"
