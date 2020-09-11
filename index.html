@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="driver.js"></script>
+    <style>
+        .button {
+            background-color: #FE5605;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>I'm Watching you</title>
+</head>
+<h1>Integrity/counting test</h1>
+<body>
+    <p id="paragraph">This shall be a three-part test of your personal integrity and counting skills.
+        <br>To begin, please press the purely functional red button (which does absolutely everything) for
+        exactly ten seconds, then click the green button to proceed.
+        <br>And don't try to trick me. I'll figure it out.</p>
+    <button id="button" class="button" onmousedown="countTime()" onmouseup="checkTime()">Press Me</button>
+    <h2 id="displayTextHeader">Good Luck! And remember, I'll be watching</h2>
+</body>
+</html>
