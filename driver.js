@@ -1,9 +1,9 @@
 //Initialize variables
 var start = Date.now();
-var level = 2;
+var level = 0;
 let levelArray = [10,100,1000000];
 var displayText = "I believe in you!";
-var isGreen = true;
+var isGreen = false;
 
 //Functions
 function countTime() {
